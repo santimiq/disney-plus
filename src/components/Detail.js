@@ -37,9 +37,6 @@ function Detail() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
         repudiandae libero dicta adipisci dolore perspiciatis eos labore
         distinctio aut, suscipit eum nulla tempora quos in iusto expedita maxime
-        quas? Natus! Deserunt at debitis, explicabo dolor harum numquam
-        accusantium nisi provident accusamus voluptas praesentium et dignissimos
-        voluptatibus vel.
       </Description>
     </Container>
   );
@@ -72,6 +69,7 @@ const ImageTitle = styled.div`
   width: 30vw;
   min-height: 170px;
   min-width: 200px;
+  margin-top: 20px;
   img {
     width: 100%;
     height: 100%;
@@ -135,4 +133,5 @@ const Description = styled.div`
   line-height: 1.4;
   font-size: 20px;
   margin-top: 16px;
+  max-width: 760px;
 `;
