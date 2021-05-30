@@ -39,7 +39,6 @@ export default Movies;
 
 const Container = styled.div`
   overflow: hidden;
-  padding: 30px 0px 26px;
 `;
 const Content = styled.div`
   display: grid;
